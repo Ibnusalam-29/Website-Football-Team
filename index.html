@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC Napoli - Official Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="assets/ssc-napoli.png" alt="SSC Napoli Logo">
+                </div>
+                <div class="logo-text">
+                    <h1>SSC Napoli</h1>
+                    <p>Official Football Club Website</p>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul id="mainNav">
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-newspaper"></i> News</a></li>
+                    <li><a href="#"><i class="fas fa-calendar-alt"></i> Matches</a></li>
+                    <li><a href="#"><i class="fas fa-store"></i> Shop</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>NAPOLI: THE PRIDE OF SOUTHERN ITALY</h2>
+            <p>SSC Napoli, founded in 1926 (with roots dating back to 1905), is the most successful football club in Southern Italy, based at the Stadio Diego Armando Maradona in Naples. Nicknamed the Azzurri or Partenopei, the club reached its golden era in the 1980s with Diego Maradona, and has achieved significant success.</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Serie A Titles</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Coppa Italia</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1</span>
+                    <span class="stat-label">UEFA Cup</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1989</span>
+                    <span class="stat-label">European Glory</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container main-content">
+        <!-- Left Column: Matches -->
+        <div class="left-column">
+            <!-- Next Match -->
+            <div class="match-container">
+                <div class="section-title">
+                    NEXT MATCH
+                    <a href="#" class="view-all-link">VIEW ALL MATCHES <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="match-date">
+                    <i class="far fa-calendar-alt"></i> WEDNESDAY, 05 FEB 2026 18.00
+                </div>
+                
+                <div class="match-info">
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-logo">
+                                <img src="assets/ssc-napoli.png" alt="Napoli Logo">
+                            </div>
+                            <div class="team-name">NAPOLI</div>
+                        </div>
+                        
+                        <div class="vs">VS</div>
+                        
+                        <div class="team">
+                            <div class="team-logo">
+                                <img id="juventus-logo" src="assets/juventus.png" alt="Juventus Logo">
+                            </div>
+                            <div class="team-name">JUVENTUS</div>
+                        </div>
+                    </div>
+                    
+                    <div class="match-time">18:00 CET</div>
+                </div>
+                
+                <button class="shop-link" id="matchDetailsBtn">MATCHDAY PRE-MATCH</button>
+            </div>
+            
+            <!-- Match Highlights -->
+            <div class="match-container">
+                <div class="section-title">
+                    MATCHDAY HIGHLIGHTS
+                    <a href="#" class="view-all-link">SEE ALL HIGHLIGHTS <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="match-date">
+                    <i class="far fa-calendar-alt"></i> WED, 28 JAN 2026
+                </div>
+                
+                <div class="match-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-number">2</span>
+                        <span class="highlight-label">GOALS SCORED</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-number">6</span>
+                        <span class="highlight-label">MATCHDAY</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-number">58%</span>
+                        <span class="highlight-label">POSSESSION</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-number">12</span>
+                        <span class="highlight-label">SHOTS</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-number">8</span>
+                        <span class="highlight-label">FOULS</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-number">3</span>
+                        <span class="highlight-label">YELLOW CARDS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Column: News & Shop -->
+        <div class="right-column">
+            <!-- News Section -->
+            <div class="news-container">
+                <div class="section-title">
+                    NEWS
+                    <a href="#" class="view-all-link">SEE ALL NEWS <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="news-item">
+                    <div class="news-image">
+                        <img id="training-image" src="assets/training.webp" alt="training session">
+                    </div>
+                    <div class="news-content">
+                        <h4>PREPARING FOR NEXT MATCH</h4>
+                        <p>The team is intensifying training sessions ahead of the crucial match against Juventus next week.</p>
+                        <a href="#" class="news-link">SEE NEWS <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-item">
+                    <div id="stadium-image" class="news-image">
+                        <img src="assets/stadium.jpg" alt="stadium">
+                    </div>
+                    <div class="news-content">
+                        <h4>ESTADIO DEL MUNDO READY</h4>
+                        <p>Our home stadium is fully prepared for the upcoming match with enhanced facilities for fans.</p>
+                        <a href="#" class="news-link">SEE NEWS <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Shop Section -->
+            <div class="shop-container">
+                <div class="section-title">
+                    SHOP
+                    <a href="#" class="view-all-link">SEE ALL SHOP <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <div class="jersey-image">
+                            <img src="assets/jersey-home.webp" alt="Home Jersey">
+                        </div>
+                        <div class="jersey-name">HOME JERSEY</div>
+                        <div class="jersey-season">25/26 Season</div>
+                        <a href="#" class="shop-link">SEE SHOP</a>
+                    </div>
+                    
+                    <div class="shop-item">
+                        <div class="jersey-image">
+                            <img src="assets/jersey-away.webp" alt="Away Jersey">
+                        </div>
+                        <div class="jersey-name">AWAY JERSEY</div>
+                        <div class="jersey-season">25/26 Season</div>
+                        <a href="#" class="shop-link">SEE SHOP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-futbol"></i>
+            </div>
+            
+            <p class="footer-text">SSC Napoli is the most successful football club in Southern Italy, with a rich history dating back to 1926. The club plays at the Stadio Diego Armando Maradona in Naples.</p>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2026 SSC Napoli Official Website. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
