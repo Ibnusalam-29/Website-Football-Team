@@ -1,2 +1,2 @@
 # Website-Football-Team
-Belajar Membuat Website TIm Sepakola dengan HTML, CSS dan Javascript
+Belajar Membuat Website Tim Sepakola dengan HTML, CSS dan Javascript dengan bantuan AI Deepseek
